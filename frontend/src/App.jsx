@@ -1,17 +1,10 @@
 import React from 'react'
 import './App.css'
-import ToDo from '../Intro/ToDo'
-import Reg from '../Intro/Reg'
-import Clock from './DigitalClock/Clock'
-import ColorChange from './DigitalClock/ColorChanger'
-import Calculator from './DigitalClock/Calculator'
-
-
-
-
-
-
-
+import ToDo from './Intro/ToDo'
+import Reg from './Intro/Reg'
+import Clock from './Calculator/Clock'
+import ColorChanger from './Calculator/ColorChanger'
+import Calculator from './Calculator/Calculator'
 
  const App = () => {
   return (
@@ -19,11 +12,9 @@ import Calculator from './DigitalClock/Calculator'
 
   {/* <Reg/> */}
    {/* <ToDo/> */}
-    {/* <Clock/>  */}
-   {/* <ColorChange/> */}
+   <Clock/>
+   <ColorChanger/>
    <Calculator/>
-
-   
   </>
    
   )
