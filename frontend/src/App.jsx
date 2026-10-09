@@ -8,8 +8,7 @@ import Calculator from './Calculator/Calculator'
   return (
  <>
 
-  {/* <Reg/> */}
-   {/* <ToDo/> */}
+  
    <Clock/>
    <ColorChanger/>
    <Calculator/>
